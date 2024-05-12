@@ -4,7 +4,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 import ru.strebkov.Monitoring_Kafka.api.ConsumerApi;
-import ru.example.myLib.dto.MetricResponse;
+
+import ru.strebkov.Monitoring_Kafka.dto.MetricResponse;
 import ru.strebkov.Monitoring_Kafka.service.MetricService;
 
 import java.util.List;

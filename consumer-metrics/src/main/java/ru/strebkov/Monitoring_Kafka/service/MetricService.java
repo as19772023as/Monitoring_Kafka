@@ -1,7 +1,9 @@
 package ru.strebkov.Monitoring_Kafka.service;
 
-import ru.example.myLib.dto.MetricRequest;
-import ru.example.myLib.dto.MetricResponse;
+
+
+import ru.strebkov.Monitoring_Kafka.dto.MetricRequest;
+import ru.strebkov.Monitoring_Kafka.dto.MetricResponse;
 
 import java.util.List;
 

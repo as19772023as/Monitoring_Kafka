@@ -2,7 +2,7 @@ package ru.strebkov.Monitoring_Kafka.mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
-import ru.example.myLib.dto.MetricResponse;
+import ru.strebkov.Monitoring_Kafka.dto.MetricResponse;
 import ru.strebkov.Monitoring_Kafka.model.Metric;
 
 @Mapper(componentModel = "spring")

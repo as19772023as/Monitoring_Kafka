@@ -11,8 +11,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import ru.example.myLib.dto.MetricResponse;
-import ru.example.myLib.exception.ErrorMessage;
+import ru.strebkov.Monitoring_Kafka.dto.MetricResponse;
+import ru.strebkov.Monitoring_Kafka.exception.ErrorMessage;
+
 
 import java.util.List;
 
