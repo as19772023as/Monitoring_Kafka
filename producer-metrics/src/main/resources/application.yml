@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: task-producer
+  kafka:
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    consumer:
+      value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+# spring actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - metrics
+          - metrics-requiredMetricName
+some:
+  endpoint: http://localhost:8082/actuator/metrics/
+
+server:
+  port: 8082
